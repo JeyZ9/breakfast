@@ -1,0 +1,22 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html::-webkit-scrollbar{
+    display: none;
+}
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.on-scrollbar::-webkit-scrollbar {
+    display: none; /* ซ่อนแถบเลื่อนสำหรับ Chrome, Safari, และ Opera */
+}
+
+.on-scrollbar {
+    -ms-overflow-style: none; /* ซ่อนแถบเลื่อนสำหรับ IE และ Edge */
+    scrollbar-width: none; /* ซ่อนแถบเลื่อนสำหรับ Firefox */
+}
